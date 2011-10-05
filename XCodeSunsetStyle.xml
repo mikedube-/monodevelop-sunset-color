@@ -1,0 +1,100 @@
+<!-- XCodeStyle.xml
+
+ Author: Lauri Taimila <lauri@taimila.com>
+
+ Copyright (c) Lauri Taimila (www.taimila.com)
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE. -->
+ <EditorStyle name="XCode Sunset" _description="Apple Inc. XCode color scheme.">
+ 
+	<!-- XCode palette -->
+	<Color name="comment-green" value="#d59d4f"/>
+	<Color name="string-red" value="#e1070c"/>
+	<Color name="keyword-purple" value="#3e568b"/>
+	<Color name="method-purple" value="#6886ab"/>
+	<Color name="type-purple" value="#c2631b" />
+	<Color name="constant-purple" value="#87869f"/>
+	<Color name="method-cyan" value="#607fa8"/>
+	<Color name="macro-brown" value="#c46a24"/>
+	<Color name="linenumber-gray" value="#6c6c6c"/>
+	<Color name="selection-bg" value="#f8e5ad"/>
+	<Color name="aluminium1" value="#eeeeec"/>
+	<Color name="aluminium2" value="#d3d7cf"/>
+	<Color name="aluminium3" value="#babdb6"/>
+	<Color name="aluminium4" value="#888a85"/>
+	<Color name="aluminium5" value="#555753"/>
+	<Color name="aluminium6" value="#2e3436"/>
+	<Color name="lightgreen" value="#b4e4b4"/>
+	<Color name="invalid-red" value="#cc0000"/>
+	<Color name="bookmark-purple" value="#bfd2f9"/>
+	
+	<!-- environment -->
+	<Style name="text" color="black" bgColor="#fefcea"/>
+	<Style name="text.selection" color="black" bgColor="selection-bg"/>
+	<Style name="text.background.searchresult" color="yellow"/>
+	
+	<Style name="marker.template.primary_template" color="lightgreen" bgColor="lightgreen"/>
+	<Style name="marker.template.primary_highlighted_template" color="black" bgColor="lightgreen"/>
+	<Style name="marker.template.secondary_template" color="white" bgColor="white"/>
+	<Style name="marker.template.secondary_highlighted_template" color="gray" bgColor="white"/>
+	
+	<Style name="text.link" color="method-cyan"/>
+	
+	<Style name="caret" color="black" bgColor="white"/>
+	
+	<Style name="marker.line" color="aluminium1"/>
+	
+	<Style name="marker.ruler" color="aluminium3"/>
+	<Style name="marker.whitespace" color="method-cyan"/>
+	<Style name="marker.invalidline" color="invalid-red"/>
+	<Style name="marker.bracket" color="aluminium4" bgColor="aluminium1"/>
+	
+	<Style name="marker.bookmark.color1" color="black"/>
+	<Style name="marker.bookmark.color2" color="bookmark-purple"/>
+	
+	<Style name="linenumber" color="linenumber-gray" bgColor="white"/>
+	<Style name="linenumber.highlight" color="linenumber-gray"/>
+	
+	<Style name="iconbar" color="aluminium1"/>
+	<Style name="iconbar.separator" color="aluminium3"/>
+	
+	<Style name="fold" color="aluminium3" bgColor="white"/>
+	<Style name="fold.highlight" color="aluminium5"/>
+	<Style name="fold.togglemarker" color="black"/>
+	
+	<!-- highlighting -->
+	<Style name="comment" color="comment-green"/>
+
+	<Style name="text.preprocessor" color="macro-brown"/>
+	<Style name="text.markup" color="macro-brown"/>
+	
+	<Style name="constant" color="constant-purple"/>
+	<Style name="constant.language" color="method-purple"/>
+
+	<Style name="string" color="string-red"/>
+	<Style name="string.single" color="string-red"/>
+	<Style name="string.double" color="string-red"/>
+	<Style name="string.other" color="string-red"/>
+	
+	<Style name="keyword.semantic.type" color="type-purple"/>
+	<Style name="keyword" color="keyword-purple">
+		<Style name="access"/>
+	</Style>
+	
+</EditorStyle>
